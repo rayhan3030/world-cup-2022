@@ -29,6 +29,10 @@ body {
     display: flex;
 }
 
+.banner-text h1:hover {
+    width: 400px;
+}
+
 .banner-text h1 {
 
     width: 531px;

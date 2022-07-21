@@ -2,7 +2,7 @@
     body {
         font-family: 'Poppins', sans-serif;
         position: relative;
-        width: 1600px;
+        width: auto;
         height: 2264px;
 
         background: #FFFFFF;
@@ -23,6 +23,10 @@
 
     .top-flex {
         display: flex;
+    }
+
+    .banner-text h1:hover {
+        width: 200px;
     }
 
     .banner-text h1 {
@@ -188,6 +192,7 @@
         color: rgba(44, 43, 43, 0.425);
         width: 309px;
         margin-top: -75px;
+        margin-left: -74px;
     }
 
     #footer-element {
