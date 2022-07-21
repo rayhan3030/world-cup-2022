@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    width: 1600px;
+    width: 1341px;
     height: 2264px;
 
     background: #FFFFFF;
@@ -209,6 +209,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 37px;
+    margin-left: 105px;
 }
 
 /* mid box section for second page starts here  */
