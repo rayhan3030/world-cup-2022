@@ -1,0 +1,282 @@
+/* Google fonts poppin 400,500,600,700 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+/* some body style  */
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 1600px;
+    height: 2264px;
+
+    background: #FFFFFF;
+}
+
+/*------------------------------------ Top Banner Styles start from here-------------------------------- */
+.black-banner {
+
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.top-flex {
+    display: flex;
+}
+
+.banner-text h1 {
+
+    width: 531px;
+    height: 240px;
+    left: 115px;
+    top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-left: 107px;
+}
+
+.banner-text p {
+
+    width: 506px;
+    height: 78px;
+    left: 115px;
+    top: 340px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 107px;
+}
+
+.banner-text a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    gap: 10px;
+    text-decoration: none;
+    margin-left: 107px;
+    width: 160px;
+    height: 56px;
+    left: 115px;
+    top: 472px;
+
+    background: #DD0000;
+    border-radius: 5px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.banner-img img {
+
+    width: 616px;
+    height: 669px;
+    left: 675px;
+    top: -8px;
+}
+
+/*------------------------------------ Top Banner Styles start from here-------------------------------- */
+
+/*-*---------------------------------- mid section Style Starts from here ----------------------------------- */
+.mid-div {
+
+    width: 184px;
+    height: 312px;
+    left: 140px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+
+}
+
+.mid-nav {
+    display: grid;
+    justify-items: center;
+    row-gap: 50px;
+    padding-left: 0px;
+    padding-top: 50px;
+    margin-right: 60px;
+}
+
+.um {
+
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 10px 5px 10px 12px;
+
+
+}
+
+.ag {
+
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 9px 45px 9px 41px;
+
+}
+
+.b {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 9px 70px 9px 50px;
+}
+
+
+
+/*------------------------------------------ mid  section ends here------------------------------------------  */
+/* //////////////////////////////////////////-------------------Welcome to grid box style section  ================*/
+.mid-flex {
+    display: grid;
+    grid-template-columns: repeat(7, 0fr);
+    margin-top: 132px;
+    margin-left: 0px;
+    justify-content: space-evenly;
+    grid-column-gap: 0px;
+}
+
+.grid-box {
+
+    width: 312px;
+    height: 362px;
+    left: 476px;
+    top: 826px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.grid-box .t {
+
+    text-decoration: none;
+    color: #050505;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 3px 6px 3px 6px;
+    margin-left: 20px;
+}
+
+.grid-box .p {
+    margin-left: 20px;
+}
+
+.grid-box .p2 {
+    margin-left: 20px;
+}
+
+.mid-box {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 37px;
+}
+
+/* mid box section for second page starts here  */
+.flag {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.flag-box {
+    width: 312px;
+    height: 242px;
+    left: 476px;
+    top: 826px;
+    border: 2px solid rgb(236, 231, 231);
+    border-radius: 10px;
+}
+
+.gvf {
+    color: black;
+    font-weight: 700;
+    padding-left: 75px;
+}
+
+.date {
+    color: gray;
+    font-weight: 700;
+    padding-left: 75px;
+}
+
+.mid-box-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+/* mid box section for second page ends here here  */
+/*  ---------=============================------................mid section ends here  */
+/*---------------------------------------------////////////////////////////////////////////// footer style  */
+footer {
+    background-color: black;
+    width: 1341px;
+    height: 310px;
+}
+
+h3 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#hr {
+    color: rgba(44, 43, 43, 0.425);
+    width: 95%;
+}
+
+ul>li {
+    list-style: none;
+    font-size: 12px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul>li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    width: 96%;
+    justify-content: space-evenly;
+
+}

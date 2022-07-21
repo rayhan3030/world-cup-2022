@@ -1,0 +1,196 @@
+@media screen and (max-width:576px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        width: 1600px;
+        height: 2264px;
+
+        background: #FFFFFF;
+    }
+
+    .black-banner {
+        height: 472px;
+        width: 334px;
+        left: 21px;
+        margin-top: 44px;
+        border-bottom-width: 75px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        background-color: black;
+        border-radius: 15px;
+    }
+
+    .top-flex {
+        display: flex;
+    }
+
+    .banner-text h1 {
+
+        width: 228px;
+        height: 66px;
+        left: 74px;
+        top: 72px;
+        padding-left: 51px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .banner-text p {
+        width: 258px;
+        height: 48px;
+        left: 59px;
+        top: 146px;
+        padding-left: 37px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .banner-text a {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 10px;
+        padding-left: 12px;
+        margin-left: -37px;
+        position: absolute;
+        width: 161px;
+        height: 40px;
+        left: 108px;
+        top: 245px;
+
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .top-flex {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0px;
+    }
+
+    .banner-img img {
+        width: 164px;
+        height: 174px;
+        margin-top: 138px;
+        margin-left: 94px;
+    }
+
+    /*------------------------------------ Top Banner Styles start from here-------------------------------- */
+
+    /*-*---------------------------------- mid section Style Starts from here ----------------------------------- */
+    .mid-div {
+        width: 210px;
+        height: 176px;
+        background-color: white;
+
+    }
+
+    .mid-nav {
+        display: grid;
+        justify-items: center;
+        row-gap: 50px;
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-right: 60px;
+        margin-top: -137px;
+        margin-left: 65px;
+    }
+
+    .um {
+        width: 210px;
+        height: 48px;
+        left: 83px;
+        top: 540px;
+        border: 1px solid lightgray;
+    }
+
+    .ag {
+        width: 160px;
+        height: 48px;
+        left: 108px;
+        top: 604px;
+        border: 1px solid lightgray;
+    }
+
+    .b {
+        width: 160px;
+        height: 48px;
+        left: 108px;
+        top: 668px;
+    }
+
+    /*------------------------------------------ mid  section ends here------------------------------------------  */
+    /* //////////////////////////////////////////-------------------Welcome to grid box style section  ================*/
+    .mid-flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 132px;
+        margin-left: 0px;
+
+        grid-column-gap: 0px;
+    }
+
+
+    .mid-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 37px;
+        margin-left: 29px;
+    }
+
+    .grid-box {
+
+        width: 312px;
+        height: 362px;
+
+
+    }
+
+    /*--------------////////////////////////////////////////////// footer style  */
+    footer {
+        background-color: black;
+        width: 367px;
+        height: 310px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        justify-content: space-evenly;
+
+    }
+
+    h3 {
+        padding-top: 5px;
+        padding-bottom: 50px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    #hr {
+        color: rgba(44, 43, 43, 0.425);
+        width: 309px;
+        margin-top: -75px;
+    }
+
+    #footer-element {
+        margin-left: 110px;
+    }
+}
