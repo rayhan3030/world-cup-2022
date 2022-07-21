@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 
-/* some body style  */
+/* some body style specialy canvas tar size plus google font */
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -97,7 +97,7 @@ body {
     top: -8px;
 }
 
-/*------------------------------------ Top Banner Styles start from here-------------------------------- */
+/*------------------------------------ Top Banner Styles ends here-------------------------------- */
 
 /*-*---------------------------------- mid section Style Starts from here ----------------------------------- */
 .mid-div {
@@ -164,6 +164,8 @@ body {
 
 
 /*------------------------------------------ mid  section ends here------------------------------------------  */
+
+
 /* //////////////////////////////////////////-------------------Welcome to grid box style section  ================*/
 .mid-flex {
     display: grid;
@@ -212,7 +214,7 @@ body {
     margin-left: 105px;
 }
 
-/* mid box section for second page starts here  */
+/* ----------------------------------------------mid box section for second page starts here  */
 .flag {
     display: flex;
     justify-content: space-around;
