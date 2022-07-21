@@ -1,3 +1,4 @@
+/*--------------------------------------------------- Responsive for mobile device  */
 @media screen and (max-width:576px) {
     body {
         font-family: 'Poppins', sans-serif;
@@ -166,6 +167,11 @@
 
     }
 
+    #see-more {
+        display: none;
+    }
+
+
     /*--------------////////////////////////////////////////////// footer style  */
     footer {
         background-color: black;
@@ -199,3 +205,232 @@
         margin-left: 110px;
     }
 }
+
+/*--------------------------------------------------- responsive for tablet device */
+@media screen and (min-width:600px) and (max-width: 992px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        width: auto;
+        height: 2264px;
+
+        background: #FFFFFF;
+    }
+
+    .black-banner {
+        height: 398px;
+        width: 734px;
+        left: 21px;
+        margin-top: 44px;
+        border-bottom-width: 75px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        background-color: black;
+        border-radius: 30px;
+    }
+
+    .top-flex {
+        display: flex;
+
+
+    }
+
+    .banner-text h1:hover {
+        width: 400px;
+    }
+
+    .banner-text h1 {
+
+        width: 228px;
+        height: 66px;
+        left: 74px;
+        top: 72px;
+        padding-left: 51px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .banner-text p {
+        width: 258px;
+        height: 48px;
+        left: 59px;
+        top: 146px;
+        padding-left: 37px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .banner-text a {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 10px;
+        padding-left: 12px;
+        margin-left: -37px;
+        position: absolute;
+        width: 161px;
+        height: 40px;
+        left: 108px;
+        top: 245px;
+
+        background: red;
+        border-radius: 5px;
+    }
+
+    .top-flex {
+        display: flex;
+
+        column-gap: 0px;
+    }
+
+    .banner-img img {
+        width: 432px;
+        height: 462px;
+        margin-top: -14px;
+        margin-left: 34px;
+    }
+
+    /*------------------------------------ Top Banner Styles start from here-------------------------------- */
+
+    /*-*---------------------------------- mid section Style Starts from here ----------------------------------- */
+    .mid-div {
+        width: 210px;
+        height: 176px;
+        background-color: white;
+
+    }
+
+    .mid-nav {
+        display: ruby;
+        margin-top: -137px;
+        margin-left: 131px;
+
+    }
+
+    .um {
+        width: 210px;
+        height: 48px;
+        left: 83px;
+        top: 540px;
+        border: 1px solid navy;
+    }
+
+    .ag {
+        width: 160px;
+        height: 48px;
+        left: 108px;
+        top: 604px;
+        border: 1px solid lightgray;
+    }
+
+    .b {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #ff00f2;
+        color: white;
+        border: 1px solid #ff00f2;
+        border-radius: 10px;
+        padding: 9px 70px 9px 50px;
+    }
+
+    /*------------------------------------------ mid  section ends here------------------------------------------  */
+    /* //////////////////////////////////////////-------------------Welcome to grid box style section  ================*/
+    .mid-flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 132px;
+        margin-left: 0px;
+
+        grid-column-gap: 0px;
+    }
+
+
+    .mid-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 37px;
+        margin-left: 29px;
+    }
+
+    .grid-box {
+
+        width: 312px;
+        height: 362px;
+
+
+    }
+
+
+    #see-more {
+        color: white;
+        display: block;
+        text-decoration: none;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-left: 317px;
+        margin-right: 347px;
+        padding-left: 31px;
+        margin-top: 23px;
+        background-color: #DD0000;
+    }
+
+
+    /*--------------////////////////////////////////////////////// footer style  */
+    footer {
+        background-color: black;
+        width: 800px;
+        height: 310px;
+        margin-left: -8px;
+    }
+
+    #footer-element {
+        margin-left: -66px;
+    }
+
+    h3 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    #hr {
+        color: rgba(44, 43, 43, 0.425);
+        width: 95%;
+    }
+
+    ul>li {
+        list-style: none;
+        font-size: 12px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    ul>li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        display: flex;
+        width: 96%;
+        justify-content: space-evenly;
+
+    }

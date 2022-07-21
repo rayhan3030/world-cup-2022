@@ -245,6 +245,10 @@ body {
     grid-column-gap: 20px;
 }
 
+#see-more {
+    display: none;
+}
+
 /* mid box section for second page ends here here  */
 /*  ---------=============================------................mid section ends here  */
 /*---------------------------------------------////////////////////////////////////////////// footer style  */
